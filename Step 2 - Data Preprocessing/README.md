@@ -6,9 +6,6 @@
 Here, we provide 6 interactive notebooks to run the following operations on the dataset:
 
 1. Split the dataset into testing, validation, and training sets using split-folders  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Data%20splitter.ipynb)
-
- <img src="http://faridnakhle.com/pv/githubimages/Data Split.png" width="180"/>
-
 2. Crop leaf images using YOLOv3 algorithm [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Leaf%20cropper.ipynb)
 
  <img src="http://faridnakhle.com/pv/githubimages/yolo.png" width="500"/>
