@@ -8,7 +8,7 @@ Here, we provide 3 interactive notebooks using different algorithms to analyze d
 
 
 
-2. Deep convolutional neural network deep learning algorithm (DCNN) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Classification%20with%20DCNN.ipynb)
+2. Random forest ensemble learning algorithm  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Classification%20with%20RF.ipynb)
 
 
 
