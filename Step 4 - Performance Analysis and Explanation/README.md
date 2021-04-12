@@ -7,10 +7,10 @@ This notebook uses LIME explainable AI to explain the classifications generated 
 
 ##### Pretrained DCNN explained by LIME based on the Quickshift superpixel segmentation algorithm
 
- ![qsa](http://faridnakhle.com/pv/githubimages/limeqs.png)
+ ![qs](http://faridnakhle.com/pv/githubimages/limeqs.png?)
  
 ##### Pretrained DCNN explained by LIME based on the Compact-Watershed superpixel segmentation algorithm
 
- ![qsa](http://faridnakhle.com/pv/githubimages/limecw.png)
+ ![cw](http://faridnakhle.com/pv/githubimages/limecw.png?)
 
 For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
