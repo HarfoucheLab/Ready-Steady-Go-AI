@@ -16,7 +16,7 @@ Click on the directories listed above to proceed.
 
 ## Citation
 ----
-If you use any part of this code in your research, kindly cite our and our paper and our data repository using the bibtex below (bibtex will be updated once the paper is published):
+If you use any part of this code in your research, kindly cite our paper and our data repository using the bibtex below (bibtex will be updated once the paper is published):
 
 ```
 @article{
@@ -31,3 +31,4 @@ If you use any part of this code in your research, kindly cite our and our paper
 ```
 ### Data Repository:
 http://dx.doi.org/10.17632/4g7k9wptyd.1
+(Will be available after publication)
