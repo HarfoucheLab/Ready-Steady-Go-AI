@@ -4,7 +4,7 @@
 ----
 We perform our analysis on a subset of the publicly available [PlantVillage](https://data.mendeley.com/datasets/tywbtsjrjv/1) dataset consisting of 18,160 RGB images split over 10 classes of healthy and diseased tomato leaves.
 
-![step1](http://faridnakhle.com/pv/githubimages/Step1.png | width=48)
+![step1](http://faridnakhle.com/pv/githubimages/Step1.png)
 
 All of our data and trained models are available on Mendeley data at http://dx.doi.org/10.17632/4g7k9wptyd.1
 
