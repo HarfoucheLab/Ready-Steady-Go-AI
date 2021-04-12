@@ -6,6 +6,9 @@
 Here, we provide 6 interactive notebooks to run the following operations on the dataset:
 
 1. Split the dataset into testing, validation, and training sets using split-folders  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Data%20splitter.ipynb)
+
+ <img src="http://faridnakhle.com/pv/githubimages/Data%20%Split.png" width="180"/>
+
 2. Crop leaf images using YOLOv3 algorithm [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Leaf%20cropper.ipynb)
 
  <img src="http://faridnakhle.com/pv/githubimages/yolo.png" width="500"/>
@@ -18,6 +21,6 @@ Here, we provide 6 interactive notebooks to run the following operations on the 
 5. Balance the dataset by oversampling using DCGAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/5.%20RSG_Oversample%20with%20DCGAN.ipynb)
 6. Balance the dataset by downsampling using KNN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/6.%20RSG_Downsample%20with%20KNN.ipynb)
 
-<img src="http://faridnakhle.com/pv/githubimages/Balance.png" width="450"/>
+ <img src="http://faridnakhle.com/pv/githubimages/Balance.png" width="450"/>
 
 For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
