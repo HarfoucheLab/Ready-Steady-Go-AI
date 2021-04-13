@@ -4,14 +4,14 @@
 ----
 We perform our analysis on a subset of the publicly available [PlantVillage](https://data.mendeley.com/datasets/tywbtsjrjv/1) dataset consisting of 18,160 RGB images split over 10 classes of healthy and diseased tomato leaves.
 
-![step1a](http://faridnakhle.com/pv/githubimages/Step1.png)
+![step1](http://faridnakhle.com/pv/githubimages/Step1.png?)
 
 All of our data and trained models are available on Mendeley data at http://dx.doi.org/10.17632/4g7k9wptyd.1
 
 When runing our code in Step 2, 3, and 4, required data and models will be downloaded to the project automatically.
 
 We provide:
-1. A randomly split version of the dataset (80% training, 10% validation, and 10% 1. testing).
+1. A randomly split version of the dataset (80% training, 10% validation, and 10% testing).
 2. 1000 annotated images with bounding boxes to train YOLOv3 on cropping leaf images.
 3. 150 annotated images with segmentation masks to train SEGNET on segmenting leaf images.
 4. Cropped version of the split dataset.
