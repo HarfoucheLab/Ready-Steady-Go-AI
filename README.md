@@ -22,7 +22,7 @@ If you use any part of this code in your research, kindly cite our paper and our
 @article{
   title={Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics},
   author={Farid Nakhle, Antoine Harfouche},
-  journal={Patterns},
+  journal={},
   pages={},
   year={2021},
   publisher={},
