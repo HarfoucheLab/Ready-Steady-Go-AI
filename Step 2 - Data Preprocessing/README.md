@@ -18,7 +18,9 @@ Here, we provide 6 interactive notebooks to run the following operations on the 
  ![segnet](http://faridnakhle.com/pv/githubimages/segnet.png?)
 
 4. Balance the dataset by oversampling using Augmentor [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/4.%20RSG_Oversample%20with%20Augmentor.ipynb)
+
 5. Balance the dataset by oversampling using DCGAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/5.%20RSG_Oversample%20with%20DCGAN.ipynb)
+
 6. Balance the dataset by downsampling using KNN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/6.%20RSG_Downsample%20with%20KNN.ipynb)
 
  ![balance](http://faridnakhle.com/pv/githubimages/Balance.png?)
