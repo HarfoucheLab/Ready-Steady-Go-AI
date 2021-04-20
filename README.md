@@ -31,6 +31,6 @@ If you use any part of this code in your research, kindly cite our paper and our
   doi={},
 }
 ```
-### Data Repository:
+### Data Repository
 http://dx.doi.org/10.17632/4g7k9wptyd.1
 (Will be available after publication)
