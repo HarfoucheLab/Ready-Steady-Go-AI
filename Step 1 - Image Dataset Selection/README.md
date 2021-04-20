@@ -2,7 +2,7 @@
 ----
 ## Step 1 - Image Dataset Selection
 ----
-We perform our analysis on a subset of the publicly available [PlantVillage](https://data.mendeley.com/datasets/tywbtsjrjv/1) dataset consisting of 18,160 RGB images split over 10 classes of healthy and diseased tomato leaves.
+We perform our analysis on a subset of the publicly available [PlantVillage](https://data.mendeley.com/datasets/tywbtsjrjv/1) dataset consisting of 18,160 RGB images split over 10 classes of healthy, diseased, and spider mites damaged tomato leaves.
 
 ![step1](http://faridnakhle.com/pv/githubimages/Step1.png?)
 
