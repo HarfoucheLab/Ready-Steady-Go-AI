@@ -22,9 +22,7 @@ libs.DownloadPlantVillageCroppedSegmentedDataset(tomato_dataset_url, save_tomato
 Next, Let us import some modules required for PyTorch
 which we will be using to download and test our model
 '''
-import argparse
 import os
-import time
 import matplotlib.pyplot as plt
 import torch
 import numpy as np
