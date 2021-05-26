@@ -32,7 +32,8 @@ def make_model(structure, hidden_layers, lr, preTrained):
     return model
 
 def loadModelWeights(modelPath):
-    state = torch.load(modelPath)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    state = torch.load(modelPath, map_location=torch.device(device))
     lr = state['learning_rate']
     structure = state['structure']
     hidden_layers = state['hidden_layers']

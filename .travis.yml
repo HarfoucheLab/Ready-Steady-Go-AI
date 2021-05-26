@@ -1,21 +1,11 @@
-resources:
-  gpu: true
-
 language: python
 python:
   - "3.8"
 # move to the testing directory
 before_install: 
-  - sudo apt-get update
-  - sudo apt-get install linux-headers-$(uname -r)
-  - wget 'http://us.download.nvidia.com/tesla/396.37/NVIDIA-Linux-x86_64-396.37.run'
-  - sudo /bin/bash ./NVIDIA-Linux-x86_64-396.37.run -s
-  - sudo nvidia-smi -pm 1
-  - sudo nvidia-smi
   - cd './Step 3 - Data Analysis/py/'
 # command to install dependencies
 install:
-  - UBUNTU_VERSION=ubuntu1604
   - sudo mkdir /content
   - sudo chmod 777 /content
   - pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html

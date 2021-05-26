@@ -49,10 +49,14 @@ if not os.path.exists(save_model_to):
     os.makedirs(save_model_to)
 IMG_SIZE = 220
 NUM_WORKERS = 1
-using_gpu = torch.cuda.is_available()
 print_every = 300
 ARCH = 'densenet161'
 hidden_layers = [10240, 1024]
+
+device = 'cpu'
+if torch.cuda.is_available():
+      device = 'cuda'
+  
 ######################################################
 
 ''' Preparing the datasets loaders: training, validation, and testing '''
@@ -75,14 +79,14 @@ libs.DownloadPretrainedDCNNDenseNet161TomatoModel(tomato_densenet161_model_url, 
 
 ''' Now let's load the weights into our model '''
 model = libs.loadModelWeights(DENSENET_PRETRAINED_PATH)
-model.cuda()
+model.to(device)
 
 ''' We can finally test the model '''
 
 with torch.no_grad():
     model.eval()
     test_preds, test_labels = libs.get_all_preds(model,test_loader)
-    preds_correct = libs.get_num_correct(test_preds.cuda(), test_labels.cuda())
+    preds_correct = libs.get_num_correct(test_preds.to(device), test_labels.to(device))
     print('total correct:', preds_correct)
     print('accuracy:')
     print(((preds_correct / (len(test_loader.dataset))) * 100))
