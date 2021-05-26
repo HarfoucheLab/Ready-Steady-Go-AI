@@ -1,6 +1,8 @@
 language: python
 python:
   - "3.8"
+# move to the testing directory
+before_install: cd './Step 3 - Data Analysis/py/'
 # command to install dependencies
 install:
   - pip install -r requirements.txt
