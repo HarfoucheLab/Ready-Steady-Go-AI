@@ -17,11 +17,12 @@ As per our workflow, this repository is split into four directories. Each direct
 Click on the directories listed above to proceed.
 
 ** UPDATE **
+
 The DCNN algorithm in Data Analysis contains the python files with unit tests. 
 We are working to complete the unit test coverage for all of our implemented algorithms. 
 To run the unit tests, use the following command:
 python -m pytest
-NB: pytest is required to run the tests. You might install it using pip (pip install pytest)
+NB: pytest is required to run the tests. You might install it using pip (pip install pytest).
 
 ## Citation
 ----
