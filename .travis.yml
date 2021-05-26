@@ -5,10 +5,9 @@ python:
 before_install: cd './Step 3 - Data Analysis/py/'
 # command to install dependencies
 install:
+  - sudo mkdir /content
+  - sudo chmod 777 /content
   - pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
   - pip install -r requirements.txt
 # command to run tests
-before_script:
-  - mkdir /content
-  - chmod 777 /content
 script: pytest
