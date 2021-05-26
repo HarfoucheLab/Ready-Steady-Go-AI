@@ -1,50 +1,21 @@
-dist: xenial
-addons:
-  apt:
-    packages:
-      - libboost-filesystem-dev
-      - libboost-system-dev
-      - libboost-program-options-dev
-      - libboost-thread-dev
-
-env:
-  matrix:
-    - CUDA_VERSION_MAJOR="8" CUDA_VERSION_MINOR="0" CUDA_PKG_LONGVERSION="${CUDA_VERSION_MAJOR}.${CUDA_VERSION_MINOR}.61-1" CUDA_PKG_VERSION="${CUDA_VERSION_MAJOR}-${CUDA_VERSION_MINOR}"
-    - CUDA_VERSION_MAJOR="9" CUDA_VERSION_MINOR="2" CUDA_PKG_LONGVERSION="${CUDA_VERSION_MAJOR}.${CUDA_VERSION_MINOR}.148-1" CUDA_PKG_VERSION="${CUDA_VERSION_MAJOR}-${CUDA_VERSION_MINOR}"
-    - CUDA_VERSION_MAJOR="10" CUDA_VERSION_MINOR="2" CUDA_PKG_LONGVERSION="${CUDA_VERSION_MAJOR}.${CUDA_VERSION_MINOR}.89-1" CUDA_PKG_VERSION="${CUDA_VERSION_MAJOR}-${CUDA_VERSION_MINOR}"
-    - CUDA_VERSION_MAJOR="11" CUDA_VERSION_MINOR="0" CUDA_PKG_LONGVERSION="${CUDA_VERSION_MAJOR}.${CUDA_VERSION_MINOR}.2-1" CUDA_PKG_VERSION="${CUDA_VERSION_MAJOR}-${CUDA_VERSION_MINOR}"
+resources:
+  gpu: true
 
 language: python
 python:
   - "3.8"
 # move to the testing directory
-before_install: cd './Step 3 - Data Analysis/py/'
+before_install: 
+  - sudo apt-get update
+  - sudo apt-get install linux-headers-$(uname -r)
+  - wget 'http://us.download.nvidia.com/tesla/396.37/NVIDIA-Linux-x86_64-396.37.run'
+  - sudo /bin/bash ./NVIDIA-Linux-x86_64-396.37.run -s
+  - sudo nvidia-smi -pm 1
+  - sudo nvidia-smi
+  - cd './Step 3 - Data Analysis/py/'
 # command to install dependencies
 install:
   - UBUNTU_VERSION=ubuntu1604
-  - >
-    if [ ${CUDA_VERSION_MAJOR} -lt 11 ]; then
-        CUDA_REPO_PKG=cuda-repo-${UBUNTU_VERSION}_${CUDA_PKG_LONGVERSION}_amd64.deb
-        wget http://developer.download.nvidia.com/compute/cuda/repos/${UBUNTU_VERSION}/x86_64/$CUDA_REPO_PKG
-        travis_retry sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/${UBUNTU_VERSION}/x86_64/7fa2af80.pub
-        sudo dpkg -i $CUDA_REPO_PKG
-        rm ${CUDA_REPO_PKG}
-        travis_retry sudo apt-get -y update
-        # cuda > 10.0 changed cublas naming
-        if [ ${CUDA_VERSION_MAJOR} -lt 10 ]; then
-              CUBLAS_PKG=cuda-cublas-dev-$CUDA_PKG_VERSION
-        else
-              CUBLAS_PKG=libcublas-dev
-        fi
-        travis_retry sudo apt-get install -y --no-install-recommends --allow-unauthenticated cuda-core-$CUDA_PKG_VERSION  cuda-cudart-dev-$CUDA_PKG_VERSION  ${CUBLAS_PKG} cuda-curand-dev-$CUDA_PKG_VERSION
-        sudo ln -s /usr/local/cuda-${CUDA_VERSION_MAJOR}.${CUDA_VERSION_MINOR} /usr/local/cuda
-    else
-        wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-ubuntu1604.pin
-        travis_retry sudo mv cuda-ubuntu1604.pin /etc/apt/preferences.d/cuda-repository-pin-600
-        travis_retry sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
-        travis_retry sudo add-apt-repository "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/ /"
-        sudo apt-get update && sudo apt-get -y install cuda
-    fi
   - sudo mkdir /content
   - sudo chmod 777 /content
   - pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
