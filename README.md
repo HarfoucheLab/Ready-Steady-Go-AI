@@ -14,9 +14,11 @@ Our workflow involves four main steps:
 
 As per our workflow, this repository is split into four directories. Each directory contains a description of its corresponding process, and ready to use, interactive notebooks that can run on Google Colab or any other platform supporting Jupyter notebooks.
 
+Click on the directories listed above to proceed.
+
 In the fifth directory (Step 5 - Check Your Understanding, Practice, and Exercise) we have prepared a set of multiple-choice questions (MCQs), practices, and exercises to provide researchers with opportunities to augment their learning by testing the knowledge they have acquired and applying the concepts explained. Click on the directory for more details.
 
-Click on the directories listed above to proceed.
+
 
 **UPDATE**
 
