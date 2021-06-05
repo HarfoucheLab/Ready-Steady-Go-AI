@@ -19,7 +19,7 @@ For the hands-on exercises and practices, three computational notebooks were dev
 
 2. The second, intended for intermediates, involves you in writing more codes for the same tasks and modifying parts of it to help you practice. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Practices%20and%20Exercises_Intermediate.ipynb)
 
-3. The third, intended for the more experienced, asks you to write codes that reuse previously learned models (to crop and segment leaves) to preprocess images of apple leaves included in the PlantVillage dataset, and to train a new model that is able to identify and classify apple diseases and explain its decisions. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Practices%20and%20Exercises_Intermediate.ipynb)
+3. The third, intended for the more experienced, asks you to write codes that reuse previously learned models (to crop and segment leaves) to preprocess images of apple leaves included in the PlantVillage dataset, and to train a new model that is able to identify and classify apple diseases and explain its decisions. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/3.%20RSG_Practices%20and%20Exercises_Advanced.ipynb)
 
 **All three notebooks contain the solutions stored in hidden code cells.**
 
