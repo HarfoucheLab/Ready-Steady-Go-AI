@@ -3,15 +3,15 @@
 ## Step 5 - Check Your Understanding, Practice, and Exercise
 ----
 
-Here, you will find a set of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired and by applying the concepts explained in practices and exercises.
+Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired and by applying the concepts explained in practices and exercises.
 
 These questions will help you identify good practices and develop troubleshooting skills that can come in useful when performing AI-based analysis.
 
-For the MCQs, two Google Forms were developed:
+For the self-test quizzes, two Google Forms were developed:
 1. The first asks questions about the basics of some of the topics covered in our manuscript.
-**Access the first set of MCQs [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here")**
+**Access the first self-test quiz [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here")**
 2. The second, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial. 
-**Access the second set of MCQs [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
+**Access the second self-test quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
 
 For the hands-on exercises and practices, three computational notebooks were developed to get you involved in coding:
 
