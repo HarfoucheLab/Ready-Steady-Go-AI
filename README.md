@@ -16,13 +16,13 @@ As per our workflow, this repository is split into four directories. Each direct
 
 Click on the directories listed above to proceed.
 
-In the fifth directory (Step 5 - Check Your Understanding, Practice, and Exercise) we have prepared a set of multiple-choice questions (MCQs), practices, and exercises to provide researchers with opportunities to augment their learning by testing the knowledge they have acquired and applying the concepts explained. Click on the directory for more details.
+In the fifth directory (Step 5 - Check Your Understanding, Practice, and Exercise) we have prepared a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to provide researchers with opportunities to augment their learning by testing the knowledge they have acquired and applying the concepts explained. Click on the directory for more details.
 
 
 
 **UPDATE**
 
-The DCNN algorithm in Data Analysis contains the python files with unit tests. 
+The pretrained DenseNet-161 DCNN algorithm in Data Analysis (step 3) now includes unit tests. 
 We are working to complete the unit test coverage for all of our implemented algorithms. 
 To run the unit tests, use the following command:
 python -m pytest
