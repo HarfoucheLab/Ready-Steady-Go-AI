@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics
+# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis
 ----
 ## Step 5 - Check Your Understanding, Practice, and Exercise
 ----
@@ -24,4 +24,4 @@ For the hands-on exercises and practices, three computational notebooks were dev
 **All three notebooks contain the solutions stored in hidden code cells.**
 
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"

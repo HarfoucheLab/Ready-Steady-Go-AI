@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics
+# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis
 ----
 ## Step 1 - Image Dataset Selection
 ----
@@ -19,4 +19,4 @@ All of our data and trained models are available on Mendeley Data at http://dx.d
 
 When running our code in Step 2, 3, and 4, required data and models will be downloaded to the project automatically.
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"

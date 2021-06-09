@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics
+# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis
 ----
 ## Step 3 - Data Analysis
 ----
@@ -16,4 +16,4 @@ Here, we provide 3 interactive notebooks using different algorithms for image-ba
 
  ![CNNPT](http://faridnakhle.com/pv/githubimages/CNN_Densenet161_Bold.png?)
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"

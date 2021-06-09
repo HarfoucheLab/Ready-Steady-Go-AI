@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics
+# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis
 ----
 ## Step 4 - Performance Analysis and Explanation
 ----
@@ -13,4 +13,4 @@ This notebook uses LIME explainable AI to explain the classifications generated 
 
  ![cw](http://faridnakhle.com/pv/githubimages/limecw.png?)
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Plant Digital Phenomics"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"
