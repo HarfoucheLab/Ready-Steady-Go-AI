@@ -3,9 +3,7 @@
 ## Step 5 - Check Your Understanding, Practice, and Exercise
 ----
 
-Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired from the paper and by applying the concepts it explained.
-
-These MCQs, practices, and exercises will help you identify good practices and develop troubleshooting skills that can be useful when performing AI-based image analysis.
+Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired from the paper and by applying the concepts it explained. This will also help you identify good practices and develop troubleshooting skills that can be useful when performing AI-based image analysis.
 
 For the quizzes, two Google Forms were developed:
 Google Form 1. The form,  intended for beginner researchers, asks questions about the basics of some of the topics covered in the paper.
