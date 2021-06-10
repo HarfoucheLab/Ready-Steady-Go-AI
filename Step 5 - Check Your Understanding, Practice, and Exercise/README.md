@@ -3,23 +3,23 @@
 ## Step 5 - Check Your Understanding, Practice, and Exercise
 ----
 
-Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired and by applying the concepts explained in practices and exercises.
+Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired from the paper and by applying the concepts it explained.
 
-These questions will help you identify good practices and develop troubleshooting skills that can be useful when performing AI-based analysis.
+These MCQs, practices, and exercises will help you identify good practices and develop troubleshooting skills that can be useful when performing AI-based image analysis.
 
-For the self-test quizzes, two Google Forms were developed:
-1. The first asks questions about the basics of some of the topics covered in our paper.
-**Access the first self-test quiz [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here")**
-2. The second, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial. 
-**Access the second self-test quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
+For the quizzes, two Google Forms were developed:
+Google Form 1. The form,  intended for beginner researchers, asks questions about the basics of some of the topics covered in the paper.
+**Access the quiz [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here")**
+Google Form 2. The form, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial.
+**Access the quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
 
 For the hands-on practices and exercises, three computational notebooks were developed to get you involved in coding:
 
-1. The first requires you to complete simple parts of a provided code in order to run the tasks included in our workflow. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Practices%20and%20Exercises_Novice.ipynb)
+Notebook 1. The notebook, intended for beginner researchers, requires them to complete simple parts of a provided code in order to run the tasks included in the four-steps workflow discussed in the paper. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Practices%20and%20Exercises_Novice.ipynb)
 
-2. The second, intended for intermediates, involves you in writing more codes for the same tasks and modifying parts of it to help you practice. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Practices%20and%20Exercises_Intermediate.ipynb)
+Notebook 2. The notebook, intended for intermediate researchers, involves them in writing more codes for the same tasks and modifying parts of it to help them practice. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/2.%20RSG_Practices%20and%20Exercises_Intermediate.ipynb)
 
-3. The third, intended for the more experienced, asks you to write codes that reuse previously learned models (to crop and segment leaves) to preprocess images of apple leaves included in the PlantVillage dataset, and to train a new model that is able to identify and classify apple diseases and explain its decisions. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/3.%20RSG_Practices%20and%20Exercises_Advanced.ipynb)
+Notebook 3. The notebook, intended for the more experienced researchers, asks them to write codes that reuse previously learned models (to crop and segment tomato leaves) to preprocess images of apple leaves included in the PlantVillage dataset and containing four classes of diseases (apple scab, black rot, cedar apple rust, and healthy). Next, it requires them to train a new model that is able to identify and classify apple diseases and explain its decisions. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/3.%20RSG_Practices%20and%20Exercises_Advanced.ipynb)
 
 **All three notebooks contain the solutions stored in hidden code cells.**
 
