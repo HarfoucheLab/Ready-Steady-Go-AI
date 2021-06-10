@@ -20,7 +20,7 @@ In the fifth directory (Step 5 - Check Your Understanding, Practice, and Exercis
 
 
 
-**UPDATE**
+**UPDATES**
 
 The pretrained DenseNet-161 DCNN algorithm in Data Analysis (step 3) now includes unit tests. 
 We are working to complete the unit test coverage for all of our implemented algorithms. 
