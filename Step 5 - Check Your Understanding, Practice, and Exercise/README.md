@@ -13,7 +13,7 @@ For the self-test quizzes, two Google Forms were developed:
 2. The second, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial. 
 **Access the second self-test quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
 
-For the hands-on exercises and practices, three computational notebooks were developed to get you involved in coding:
+For the hands-on practices and exercises, three computational notebooks were developed to get you involved in coding:
 
 1. The first requires you to complete simple parts of a provided code in order to run the tasks included in our workflow. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/1.%20RSG_Practices%20and%20Exercises_Novice.ipynb)
 
