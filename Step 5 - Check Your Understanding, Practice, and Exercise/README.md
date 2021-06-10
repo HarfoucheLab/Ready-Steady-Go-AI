@@ -3,7 +3,7 @@
 ## Step 5 - Check Your Understanding, Practice, and Exercise
 ----
 
-Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs), practices, and exercises to augment your learning by testing the knowledge you have acquired from the paper and by applying the concepts it explained. This will also help you identify good practices and develop troubleshooting skills that can be useful when performing AI-based image analysis.
+Here, you will find a set of self-test quizzes in form of multiple-choice questions (MCQs) and hands-on practices and exercises to augment your learning by testing the knowledge that you have acquired  throughout the tutorial, identify good practices, and develop troubleshooting skills that can be useful when performing AI-based image analysis.
 
 For the quizzes, two Google Forms were developed:
 
@@ -20,6 +20,5 @@ For the hands-on practices and exercises, three computational notebooks were dev
 **Notebook 3.** This notebook, intended for the more experienced researchers, asks them to write codes that reuse previously learned models (to crop and segment tomato leaves) to preprocess images of apple leaves included in the PlantVillage dataset and containing four classes of diseases (apple scab, black rot, cedar apple rust, and healthy). Next, it requires them to train a new model that is able to identify and classify apple diseases and explain its decisions. [![Try it in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/faridnakhle/RSG/blob/main/3.%20RSG_Practices%20and%20Exercises_Advanced.ipynb)
 
 **All three notebooks contain the solutions stored in hidden code cells.**
-
 
 For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"
