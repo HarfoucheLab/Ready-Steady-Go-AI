@@ -44,5 +44,6 @@ If you use any part of this code in your research, kindly cite our paper and our
 }
 ```
 ### Mendeley Data repository
+
+Mendeley Data repository containing all of our raw data, processed data, and trained models will be publicly available after publication on the following link:
 http://dx.doi.org/10.17632/4g7k9wptyd.1
-(Will be available after publication)
