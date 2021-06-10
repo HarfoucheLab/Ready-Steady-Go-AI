@@ -7,9 +7,9 @@ Here, you will find a set of self-test quizzes in form of multiple-choice questi
 
 For the quizzes, two Google Forms were developed:
 
-**Google Form 1.** This form,  intended for beginner researchers, asks questions about the basics of some of the topics covered in the paper. **Access the quiz [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here")**
+**Google Form 1.** This form,  intended for beginner researchers, asks questions about the basics of some of the topics covered in the paper. **Access the quiz [here](https://forms.gle/mDyn1ExSZxRfxV1r6 "here").**
 
-**Google Form 2.** This form, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial. **Access the quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here")**
+**Google Form 2.** This form, intended for the more experienced researchers, includes more advanced questions and is based on real-life scenarios that we have faced while developing our tutorial. **Access the quiz [here](https://forms.gle/1n6ngsNSeCZ7bJgK7 "here").**
 
 For the hands-on practices and exercises, three computational notebooks were developed to get you involved in coding:
 
@@ -21,4 +21,4 @@ For the hands-on practices and exercises, three computational notebooks were dev
 
 **All three notebooks contain the solutions stored in hidden code cells.**
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis".
