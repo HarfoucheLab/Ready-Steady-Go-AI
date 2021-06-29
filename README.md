@@ -2,7 +2,7 @@
 ----
 ![split](http://faridnakhle.com/pv/githubimages/RSGlogo.png?t=1)
 
-This tutorial is a supplement to the paper, **Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis** (submitted to *Patterns, 2021*) by Farid Nakhle and Antoine Harfouche. It aims to introduce the basic principles for implementing artificial intelligence (AI) and explainable AI algorithms in image-based data analysis using the PlantVillage dataset to detect and classify tomato leaf diseases and spider mites as a case study.
+This tutorial is a supplement to the paper, **Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis** (submitted to *Patterns, 2021*) by Farid Nakhle and Antoine Harfouche. It aims to introduce the basic principles for implementing artificial intelligence (AI) and explainable AI algorithms in image-based data analysis using the PlantVillage dataset to detect and classify tomato leaf diseases and spider mites as a case study.
 
 Read the accompanying paper [here](https://doi.org) (a link will be available once the paper is published).
 

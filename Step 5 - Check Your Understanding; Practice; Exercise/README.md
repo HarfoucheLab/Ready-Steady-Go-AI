@@ -21,4 +21,4 @@ For the hands-on practices and exercises, three computational notebooks were dev
 
 **All three notebooks contain the solutions stored in hidden code cells.**
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis".
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis".

@@ -25,4 +25,4 @@ Here, we provide 6 interactive notebooks to run the following operations on the 
 
  ![balance](http://faridnakhle.com/pv/githubimages/Balance.png?)
 
-For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis"
+For more details, check our paper: "Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis"
