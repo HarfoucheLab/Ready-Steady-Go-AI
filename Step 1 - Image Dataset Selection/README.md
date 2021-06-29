@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis
+# Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis
 ----
 ## Step 1 - Image Dataset Selection
 ----

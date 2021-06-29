@@ -1,4 +1,4 @@
-# Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis [![Build Status](https://travis-ci.com/HarfoucheLab/Ready-Steady-Go-AI.svg?token=Hn3qS2qxTmJgJNKTXR7d&branch=main)](https://travis-ci.com/HarfoucheLab/Ready-Steady-Go-AI)
+# Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis [![Build Status](https://travis-ci.com/HarfoucheLab/Ready-Steady-Go-AI.svg?token=Hn3qS2qxTmJgJNKTXR7d&branch=main)](https://travis-ci.com/HarfoucheLab/Ready-Steady-Go-AI)
 ----
 ![split](http://faridnakhle.com/pv/githubimages/RSGlogo.png?t=1)
 
