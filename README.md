@@ -4,7 +4,7 @@
 
 This tutorial is a supplement to the paper, **Ready, Steady, Go AI: A Practical Tutorial on Fundamentals of Artificial Intelligence and Its Applications in Phenomics Image Analysis** (submitted to *Patterns, 2021*) by Farid Nakhle and Antoine Harfouche. It aims to introduce the basic principles for implementing artificial intelligence (AI) and explainable AI algorithms in image-based data analysis using the PlantVillage dataset to detect and classify tomato leaf diseases and spider mites as a case study.
 
-Read the accompanying paper [here](https://doi.org) (a link will be available once the paper is published).
+Read the accompanying paper [here](https://doi.org/10.1016/j.patter.2021.100323).
 
 Our workflow involves four main steps:
 1. Image Dataset Selection
@@ -33,14 +33,17 @@ NB: pytest is required to run the tests. You might install it using pip (pip ins
 If you use any part of this code in your research, kindly cite our paper and our data repository using the bibtex below (bibtex will be updated once the paper is published):
 
 ```
-@article{
-  title={Ready, Steady, Go AI: A Practical Tutorial on Explainable Artificial Intelligence and Its Applications in Phenomics Image Analysis},
-  author={Farid Nakhle, Antoine Harfouche},
-  journal={},
-  pages={},
-  year={2021},
-  publisher={},
-  doi={},
+@article{NAKHLE2021100323,
+	title = {Ready, Steady, Go AI: A practical tutorial on fundamentals of artificial intelligence and its applications in phenomics image analysis},
+	journal = {Patterns},
+	volume = {2},
+	number = {9},
+	pages = {100323},
+	year = {2021},
+	issn = {2666-3899},
+	doi = {https://doi.org/10.1016/j.patter.2021.100323},
+	url = {https://www.sciencedirect.com/science/article/pii/S2666389921001719},
+	author = {Farid Nakhle and Antoine L. Harfouche}
 }
 ```
 ### Mendeley Data repository
